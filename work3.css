@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.logo img{
+    height: 80;
+    width: 90;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+header nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+}
+header nav.logo{
+    width: 150px;
+}
+header nav .menu{
+    display: flex;
+    align-items: center;
+    
+}
+nav .menu a{
+    color: aliceblue;
+    margin: 30px;
+    position: relative;
+
+}
+nav .menu a::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: brown;
+    transition: 0.4s;
+
+
+}
+nav .menu a:hover::after{
+    width: 100%;
+
+}
+nav.social{
+
+}
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(dark\ car.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero .text{
+    width: 90%;
+    margin: auto;
+}
+.hero .text h4{
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hero .text h1{
+    color: aliceblue;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 30px;
+
+}
+.hero .text h1 span{
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+}
+.hero .text p{
+    color: aliceblue;
+    margin-bottom: 30px;
+
+}
+.hero .text .btn{
+    padding: 10px 30px;
+    background-color: red;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: 2px rgb(0, 255, 21);
+    transition: 0.3s;
+}
+.hero .text .btn:hover{
+    background-color: transparent;
+
+}
+.future-1 marquee{
+    color: red;
+}
+.future-1{
+    text-align: center;
+    justify-content: space-between;
+    background: url(Black-lamborghini.jpg);
+    text-align: center;
+    color: azure;
+    background-size: cover;
+
+}
+.future-1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+
+    
+
+    
+
+}
+.future-1 h3{
+    font-size: 50px;
+    font-weight: bolder;
+    color: red;
+    margin-top: 30px;
+
+}
+.future-1 label{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.future-1 select{
+    color: blue;
+    margin-top: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.future-1 select:hover{
+    background-color: transparent;
+
+}
+.future-1 option{
+    
+    color: red;
+}
+.future-1 img{
+    height: 200px;
+    background: transparent;
+    position: relative;
+    right: 30%;
+    
+}
+
+.car-1{
+    color:whitesmoke;
+    margin-top: 30px;
+    position: relative;
+    right: 350px;
+   
+    
+
+}
+.car-2{
+    color: red;
+    position: relative;
+    right: 350px;
+    margin-top: 20px;
+    line-height: 1;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+.future-1 li{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 45%;
+}
+.future-2{
+    background-color: black;
+    color: azure;
+    font-weight: bolder;
+    text-align: center;
+}
+.future-2 h1{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 30px;
+}
+.future-2 button{
+    cursor: pointer;
+    background-color: red;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+button:hover{
+    color: blue
+
+}
+.future-2 ::placeholder{
+    color: blue;
+}
+.future-3{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+.car-3{
+    color: red;
+}
+
+
+    
+
+
+
+
+
+
+
